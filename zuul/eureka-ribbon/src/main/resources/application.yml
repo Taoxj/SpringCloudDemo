@@ -1,0 +1,12 @@
+spring:
+  application:
+    #工程名称
+    name: eureka-ribbon
+eureka:
+  client:
+    service-url:
+      #注册中心的url
+      defaultZone: http://localhost:1111/eureka
+server:
+  #端口
+  port: 1114

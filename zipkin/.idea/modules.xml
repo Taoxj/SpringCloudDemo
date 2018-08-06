@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/trace-A/trace-A.iml" filepath="$PROJECT_DIR$/trace-A/trace-A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin.iml" filepath="$PROJECT_DIR$/zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trace-B/zipkin (1).iml" filepath="$PROJECT_DIR$/trace-B/zipkin (1).iml" />
+    </modules>
+  </component>
+</project>

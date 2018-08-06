@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+server:
+  port: 1116
+spring:
+  application:
+    name: zuul-service
+zuul:
+  routes:
+    api-a:
+      path: /clientapi/**
+      serviceId: eureka-client
+    api-b:
+      path: /ribbonapi/**
+      serviceId: eureka-ribbon
